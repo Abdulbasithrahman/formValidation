@@ -1,0 +1,77 @@
+.app{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #34568B;
+  padding: 10px;
+}
+form{
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+h1{
+  color:#34568B;
+  text-align: center;
+}
+.rad-label{
+    font-size: 18px;
+    color: #34568B;
+    font-weight: bold;
+    margin-left: 11px;
+}
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #34568B;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.option2{
+   margin-top: 30px;
+}
+.option1{
+  margin-top: 15px;
+}
+.file{
+  position: relative;
+  height: 120px;
+}
+.file-upload{
+  margin-left: 12px;
+  width: 200px;
+  height: 46px;
+  line-height: 46px;
+}
+.hide{
+  display: none;
+}
+.img-size{
+   position: absolute;
+   right: 3%;
+   top:-1;
+   bottom:20%;
+   min-width: 100px;
+   min-height: 80px;
+   width: 250px;
+   height: 120px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   object-fit: contain;
+}
+.error-msg{
+  position: absolute;
+  color: red;
+  font-size: 13px;
+  padding: 3px;
+  bottom: 0;
+  left: 2%;
+}

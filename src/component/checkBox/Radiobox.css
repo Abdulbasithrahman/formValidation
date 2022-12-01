@@ -1,0 +1,18 @@
+
+.check-com{
+    display: flex;
+    flex-direction: column;
+}
+.check-radio{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.check-input{
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.rad-label{
+    font-size: 18px;
+    color: #34568B;
+}
